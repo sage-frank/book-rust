@@ -14,7 +14,6 @@ struct Point {
 
 use std::ops::Add;
 
-
 impl Add for Point  {
     type Output = Self;
 
@@ -34,7 +33,6 @@ struct Meters(f32);
 #[derive(Debug,PartialEq)]
 struct Millimeters(u32);
 
-
 impl Add<Meters> for Millimeters {
     type Output = Self;
 
@@ -42,7 +40,6 @@ impl Add<Meters> for Millimeters {
         Self(self.0 + (other.0 * 1000.0) as u32 )
     }
 }
-
 
 impl Add<Millimeters> for Meters {
     type Output = Self;

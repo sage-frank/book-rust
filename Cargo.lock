@@ -169,6 +169,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "full-limit-type"
+version = "0.1.0"
+
+[[package]]
 name = "futf"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -649,6 +653,10 @@ checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
 
 [[package]]
 name = "operator-overloading"
+version = "0.1.0"
+
+[[package]]
+name = "parent-trait"
 version = "0.1.0"
 
 [[package]]
@@ -1429,6 +1437,10 @@ checksum = "db97caf9d906fbde555dd62fa95ddba9eecfd14cb388e4f491a66d74cd5fb79a"
 dependencies = [
  "once_cell",
 ]
+
+[[package]]
+name = "trait-demo1"
+version = "0.1.0"
 
 [[package]]
 name = "trpl"
